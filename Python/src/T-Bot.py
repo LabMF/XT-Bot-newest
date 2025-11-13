@@ -30,7 +30,7 @@ class Config:
     # Telegram配置
     TELEGRAM_LIMITS = {
         'images': 10 * 1024 * 1024,  # 10MB
-        'videos': 50 * 1024 * 1024,  # 50MB
+        'videos': 2000 * 1024 * 1024,  # 50MB
         'caption': 1024,  # 消息截断长度
         'media_group': 10,  # 媒体分组最多文件数
     }
